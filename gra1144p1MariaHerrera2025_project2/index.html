@@ -17,6 +17,7 @@
   margin: 0; 
 font-family: "Kumbh Sans", serif;	
 	}
+	
 	wrapper {
 	width: 1000px;
 		margin: 0 auto;
@@ -49,7 +50,21 @@ section {
 		text-align:center;
 		padding-top: 40px;
 	}
-	
+	.gradient-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.gradient-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 4px; /* Adjust the underline thickness */
+  background: linear-gradient(to right, #ad1519, #fabd00); /* Gradient colors */
+  border-radius: 2px; /* Optional: round the edges of the underline */
+}
 	
 	footer{
 		width:990px;
@@ -105,7 +120,7 @@ section {
 			<img src="pan.gif" class="banner"/>
 			
 		<section>
-			<h2>Ingredients</h2>
+			<h2 class="gradient-underline">Ingredients</h2>
 			
 			<ul>
 				<li>1 &frac34; cup olive oil, divided</li>
@@ -120,7 +135,7 @@ section {
 		</section>
 		
 		<section>
-		<h2>Steps</h2>
+		<h2 class="gradient-underline">Steps</h2>
 	<ol>
 		<li>Heat 1&frac12; cups olive oil in a large skillet over medium heat. Add onions, potatoes, and 1 teaspoon salt.</li>
 		<li>Cook, pressing gently with a spatula, until potatoes are fork-tender but not mushy. Transfer to a bowl to cool slightly.</li>
