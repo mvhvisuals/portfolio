@@ -25,7 +25,8 @@
 }
 	
 	image1 {
-        margin-right: auto; /* Centers the image */	
+        margin-left: 50%;
+			/* Centers the image */	
 	}
 	
 	
@@ -112,7 +113,19 @@ image2 {
 	visibility:visible;
 	}
 	
-	
+	.video-container {
+    display: flex;
+    justify-content: center; /* Centers the video */
+    align-items: center;
+    width: 100%; /* Makes the container take full width */
+    margin: 20px 0; /* Adds some spacing above and below */
+}
+
+.video-container video {
+    width: 100%; /* Adjusts video width to be 80% of the page width */
+    max-width: 1366px; /* Ensures it doesn't get too large on big screens */
+    height: auto; /* Keeps the aspect ratio */
+}
 	
 </style>
 <header>
@@ -121,12 +134,15 @@ image2 {
     <button>cast</button>
     <button>showtimes</button>  
     <button>tickets</button>
+	
+	
 </header>
 <main>
 	
-<div class="image-container">
-    <img src="the_shining_banner.png" alt="Image 1" class="image1">
-	
+<div class="video-container">
+	    <video controls loop>
+        <source src="elevator_scene.mp4" type="video/mp4">
+    </video>
 </div>
 
 	<div class="notwins">
