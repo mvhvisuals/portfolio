@@ -1,0 +1,333 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hollywood Pantages Theatre | Maria V. Herrera</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Monsieur+La+Doulaise&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style type="text/css">
+body {
+    margin: 0;
+	font-family: "Roboto Condensed", sans-serif;
+	background-color:black;
+}
+wrapper {
+    width: 1500px;
+    margin: auto;
+    display: block;
+}
+section {
+    height: 1500px;
+    background-image: inherit;
+}
+nav {
+    background-color: rgba(0,0,0,0.70);
+    text-align: center;
+}
+#home nav .Oklahoma-City-Ballet-Logo-Black {	
+    width: 90px;
+    height: 87px;
+	padding:10px 25% 10px 50px;
+	display:inline-block;
+	
+}
+ul {
+	margin:0;
+    padding: 0;
+    text-align: center;
+	display:inline-block;
+	vertical-align:top;
+}
+li {
+    display: inline-block;
+    padding: 40px 40px 20px 40px;
+	margin-right:40px;
+    color: white;
+    font-weight: 300;
+	font-size:20px;
+}
+li:hover {
+	background-color:#2E383C;
+	border-bottom:solid;
+	transition: .2s;
+}
+#home {
+    background-image: url(Images/THE-PHANTOM-OF-THE-OPERA.-Dean-Chisnall-as-The-Phantom-and-Lily-Kerhoas-as-Christine.-Photo-by-Johan-Persson-2.jpg);
+    background-position: center 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.medianav {
+	background-color:rgba(0,0,0,0.70);
+    text-align: center;
+	padding-left:50px;
+	margin-top:150px;
+}
+.locationnav {
+	background-color:rgba(0,0,0,0.70);
+    text-align: center;
+	padding-left:50px;	
+	margin-top:150px;
+}
+h2 {
+    margin: 0;
+    padding: 0px;
+    font-size: 70px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.Subheading{
+	text-align:center;
+	color:white;
+	font-weight:400;
+}
+#home .BuyTickets {
+    text-decoration: none;
+	position:relative;
+    color: white;
+    top:20px;
+    left: 45%;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: 2px solid #F5F5F5;
+    border-radius: 50px;
+}
+#home .BuyTickets:hover{
+	color:#9FE48E;
+	border-color:#9FE48E;
+}
+.Events{
+	background-color:black;
+}
+.UpcomingEvents{
+	color:whitesmoke;
+	text-align:center;
+	padding-top:130px;
+}
+.Anniversary{
+	color:white;
+	font-size:30px;
+	font-weight:300;
+	text-align:center;
+}
+.AnniversaryDate {
+	color:white;
+	text-align:center;
+	padding-bottom:40px;
+}
+.Calendar{
+	width:50%;
+	height:60%;
+	padding-left:25%;
+}
+.media{
+    padding-top: 140px;
+    color: white;
+    background-color: #000000;
+    padding-bottom: 140px;
+}
+.MediaHeading{
+	padding-top:130px;
+	padding-bottom:60px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display:none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.location{
+    padding-top: 100px;
+    color: white;
+    padding-bottom: 100px;
+}
+.LocationHeading{
+	padding-bottom:60px;
+	padding-top:100px;
+	
+}
+.locationdesc{
+	display:inline-block;
+	padding:50px 50px 50px 50px;
+	margin:90px 40px 40px 150px;
+	vertical-align:top;
+	font-size:30px;
+	border:solid;
+}
+footer {
+    font-weight: 500;
+	padding:40px;
+	color:white;
+}
+	
+.location #location .LocationHeading {
+}
+
+.medianav ul {
+}
+</style>
+</head>
+<body>
+<wrapper>
+	<header></header>
+  <section id="home">
+    <nav>
+		
+      <ul>
+        <a href="#home"><li>HOME</li></a>
+        <a href="#media"><li>MEDIA</li></a>
+        <a href="#location"><li>LOCATION</li></a>
+	  </ul>
+	</nav>
+	   
+  </section>
+  <section class="Events">
+	<h2 class="UpcomingEvents">UPCOMING PERFORMANCES</h2>
+	<h3 class="Anniversary">JOIN US FOR AN UNFORGETABLE SEASON</h3>
+
+	<iframe src="https://calendar.google.com/calendar/embed?src=d114aba1416c23f2903d8418df1140d63790a16a0d16605f46b168f898f1e735%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" class= "Calendar" scrolling="no"></iframe>
+  </section>
+<div class="media">
+	<section id="media">
+	<nav class="medianav">
+	  <ul>
+	    <a href="#home">
+	      <li>HOME</li>
+        </a> <a href="#media">
+	        <li>MEDIA</li>
+	        </a> <a href="#location">
+	          <li>LOCATION</li>
+	          </a>
+      </ul>
+    </nav>
+    <h2 class="MediaHeading">MEDIA</h2>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/EGb4hj-EXt0?si=steSQHUTdQ1vSN4n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
+
+  </section>
+  </div>
+	<div class="location">
+  <section id="location">
+	  <nav class="locationnav">
+	  <ul>
+	    <a href="#home">
+	      <li>HOME</li>
+        </a> <a href="#media">
+	        <li>MEDIA</li>
+	        </a> <a href="#location">
+	          <li>LOCATION</li>
+	          </a>
+      </ul>
+    </nav>
+	  <h2 class="LocationHeading">LOCATION</h2>
+	  <h4 class="locationdesc">Hollywood Pantages Theatre<br> 6233 Hollywood Blvd, Los Angeles, CA 90028<br> (323) 468-1700</h4>
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6607.4766806754715!2d-118.3256085!3d34.101842999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf3902b82703%3A0xe8160385b2f0d6ce!2sHollywood%20Pantages%20Theatre!5e0!3m2!1sen!2sus!4v1741144240565!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  </div>
+  <footer>
+    <p> &copy; 2025, Maria V. Herrera. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+  </footer>
+</wrapper>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>
