@@ -9,15 +9,15 @@
 <style type="text/css">
 body {
     margin: 0;
-	font-family: "Roboto Condensed", sans-serif;
-	background-color:black;
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: black;
 }
 wrapper {
     width: 1500px;
     margin: auto;
     display: block;
 }
-section {
+#home {
     height: 1500px;
     background-image: inherit;
 }
@@ -99,12 +99,15 @@ h2 {
 	border-color:#9FE48E;
 }
 .Events{
-	background-color:black;
+    height: 1000px;
+    background-image: url(Images/rose.jpg);
+    background-position: bottom;
+    background-size: cover;
 }
 .UpcomingEvents{
-	color:whitesmoke;
-	text-align:center;
-	padding-top:130px;
+    color: whitesmoke;
+    text-align: center;
+    height: auto;
 }
 .Anniversary{
 	color:white;
@@ -118,19 +121,17 @@ h2 {
 	padding-bottom:40px;
 }
 .Calendar{
-	width:50%;
-	height:60%;
-	padding-left:25%;
+    width: 50%;
+    height: 40%;
+    padding-left: 25%;
 }
 .media{
-    padding-top: 140px;
     color: white;
     background-color: #000000;
-    padding-bottom: 140px;
 }
 .MediaHeading{
-	padding-top:130px;
-	padding-bottom:60px;
+    padding-top: 100px;
+    padding-bottom: 60px;
 }
 
 .slideshow-container {
@@ -199,20 +200,18 @@ h2 {
   background-color: #717171;
 }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
 
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
 .location{
-    padding-top: 100px;
     color: white;
-    padding-bottom: 100px;
+    height: 1000px;
+    background-image: url(Images/theatre.jpg);
+    background-position: center 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .LocationHeading{
 	padding-bottom:60px;
@@ -254,7 +253,7 @@ footer {
 	</nav>
 	   
   </section>
-  <section class="Events">
+  <section class="Events" style="height: 700px; background-image: rose.jpg;">
 	<h2 class="UpcomingEvents">UPCOMING PERFORMANCES</h2>
 	<h3 class="Anniversary">JOIN US FOR AN UNFORGETABLE SEASON</h3>
 
