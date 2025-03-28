@@ -12,6 +12,9 @@ wrapper {
     display: block;
     align-content: center;
 }
+footer {
+    color: white;
+}
 ul a li {
     padding: 10px 32px;
     display: inline-block;
@@ -29,4 +32,7 @@ nav {
 }
 a {
     color: #FFFFFF;
+}
+main {
+    background-image: inherit;
 }
