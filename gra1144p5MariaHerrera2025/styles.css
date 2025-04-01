@@ -1,38 +1,279 @@
-@charset "UTF-8";
+@charset "utf-8";
 body {
     margin: 0;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: black;
-   
-    height: 0vh;
+    padding: 0;
+    background-color: #000000;
 }
 wrapper {
     width: 1366px;
-    margin: auto;
+    margin: 0 auto;
     display: block;
-    align-content: center;
+    background-color: #000000;
 }
-footer {
-    color: white;
+header, footer {
+    background-color: #000000;
+    padding: 10px 16px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-ul a li {
-    padding: 10px 32px;
-    display: inline-block;
-}
-img {
-    align-content: center;
-}
-ul a li:hover {
-    background-color: red;
-    color: #000000;
+nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 nav {
     background-color: #000000;
-    color: #FFFFFF;
 }
-a {
+nav ul li {
+    display: inline-block;
     color: #FFFFFF;
+    padding: 16px 24px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+nav ul li:hover {
+    color: #ad1610;
 }
 main {
-    background-image: inherit;
+    height: 800px;
+    background-image: url(album.png);
+}
+h1 {
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+}
+
+#home {
+    background-size: cover;
+    background-image: url(index.jpg);
+    margin-top: -43px;
+}
+#news {
+    background-image: url(news.png);
+    background-size: cover;
+    margin-top: -43px;
+    background-color: #AD1610;
+    /* [disabled]background-position: 0% 40px; */
+}
+
+#store {
+    background-image: url(store.jpg);
+    background-size: cover;
+    margin-top: -41px;
+}
+#videos {
+    background-image: url(videos-bg.jpg);
+    background-size: cover;
+}
+#tours {
+    background-position: 0% 0%;
+    background-size: cover;
+    background-image: url(concerts.png);
+    margin-top: -43px;
+}
+#gallery {
+    background-size: cover;
+    background-image: url(gallery-BG.jpg);
+    margin-top: -41px;
+}
+img.gallery {
+    padding-top: 10px;
+    padding-left: 32px;
+}
+
+#merch {
+    background-size: cover;
+    margin-top: 40px;
+    background-image: url(merch.png);
+}
+#merch h2 {
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    padding-top: 10px;
+	padding-bottom: 100px;
+    padding-left: 585px;
+}
+
+#merch h3 {
+    color: #000000;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 473px;
+	padding-bottom: 100px;
+    padding-left: 602px;
+}
+
+#blogs {
+    background-size: cover;
+    background-image: url(blogs.png);
+    margin-top: -42px;
+    height: 900px;
+    background-position: 29% 0%;
+}
+#privacy {
+    background-image: url(madonna_privacy.png);
+    background-size: cover;
+    margin-top: -42px;
+}
+#home h2 {
+    color: #9B832C;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    text-align: right;
+    padding-top: 101px;
+    padding-left: 0px;
+    padding-right: 123px;
+}
+#gallery h2 {
+    color: #000000;
+    padding-top: 50px;
+    margin-left: 518px;
+    font-size: 50px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#gallery .button {
+    margin-left: 571px;
+    margin-top: 49px;
+}
+#home .button {
+    padding-left: 989px;
+    padding-top: 65px;
+}
+#news h2 {
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 166px;
+    padding-top: 54px;
+    margin-left: 440px;
+    margin-right: 50px;
+}
+
+#news h3 {
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding-left: 55px;
+    margin-left: 50px;
+    margin-right: 50px;
+  
+}
+
+#news h4 {
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+#news h5 {
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+#news h3, #news h4, #news h5 {
+    display: inline-block;
+    vertical-align: middle; /* Ensures proper alignment */
+    margin-right: 55px; /* Adjust this for more/less space */
+	margin-top: 440px; /* Adjust value as needed */
+}
+
+
+#tours h2 {
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 446px;
+    padding-left: 1050px;
+    margin-top: 128px;
+}
+#mailings {
+    background-image: url(mail.png);
+    background-size: cover;
+    margin-top: -41px;
+}
+#mailings h2 {
+    color: #ffffff;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    margin-top: 40px;
+    padding-top: 78px;
+    padding-left: 300px;
+}
+div   {
+    background-image: url(Stufish-889_M15_09SEPT15_23.jpg);
+    /* [disabled]background-repeat: repeat-y; */
+    background-size: cover;
+}
+#mailings h3 {
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 40px;
+    padding-top: 46px;
+    padding-left: 596px;
+}
+#mailings img {
+    padding-top: 529px;
+    padding-left: 578px;
+    background-image: url(mail.png);
+}
+
+#privacy h2 {
+    color: #ffffff;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 80px;
+    padding-top: 220px;
+}
+#privacy .p {
+    color: #000000;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 80px;
+}
+#privacy img {
+    padding-top: 37px;
+    padding-left: 206px;
+}
+#blogs h2 {
+    color: #000000;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 371px;
+    padding-top: 35px;
+}
+
+#blogs .heading-container {
+    display: flex;
+    align-items: center; /* Aligns text vertically */
+    gap: 80px; /* Adjusts space between h3 and h4 */
+    margin-top: 600px; /* Moves both elements down together */
+    padding-left: 120px;
+}
+
+#blogs h3, 
+#blogs h4 {
+    color: #000000;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-bottom: 7px; /* Resets any unwanted margins */
+    padding: 0; /* Resets unwanted padding */
+}
+#blogs img {
+    padding-top: 0px;
+    margin-top: -20px;
+    padding-left: 7px;
+    background-image: url(blogs.png);
+}
+main #music {
+    background-image: url(album.jpg);
 }
