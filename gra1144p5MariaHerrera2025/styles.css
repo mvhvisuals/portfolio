@@ -205,11 +205,7 @@ img.gallery {
     padding-top: 78px;
     padding-left: 300px;
 }
-div   {
-    background-image: url(Stufish-889_M15_09SEPT15_23.jpg);
-    /* [disabled]background-repeat: repeat-y; */
-    background-size: cover;
-}
+
 #mailings h3 {
     color: #FFFFFF;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
