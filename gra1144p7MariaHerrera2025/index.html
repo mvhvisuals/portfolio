@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Expedia | Maria V. Herrera, 2025</title>
+<style type="text/css">
+body {
+    margin: 0;
+    background-image: url(Hawaii_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00507D;
+    background-position: 0% 100px;
+}
+header {
+    height: 100px;
+    background-color: #0080CA;
+}
+wrapper {
+    margin: auto;
+    width: 1366px;
+    display: block;
+    background-color: rgba(255,255,255,.2);
+    ;
+}
+footer  {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    position: fixed;
+    padding: 8px;
+    bottom: 0px;
+    background-color: rgba(0,0,0,.2);
+}
+.icons {
+    width: auto;
+    height: 50px;
+}
+#Tabs1 li {
+    text-align: center;
+    background-color: rgba(61,136,202,0.50);
+    background-image: none;
+    font-family: sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#Tabs1 div {
+    background-color: rgba(255,255,255,0.5);
+}
+#Tabs1 li a {
+    color: rgba(255,255,255,1.00);
+}
+#Tabs1 ul {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+    color: rgba(255,255,255,1.00);
+}
+#Tabs1 {
+    background-image: none;
+    border: none;
+    background-color: rgba(255,255,255,0.20);
+    color: rgba(255,255,255,1.00);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+	<header></header>
+<wrapper>
+<div id="Tabs1">
+  <ul>
+    <li><a href="#tabs-1"><img src="FLIGHTS_WHITE.png" alt="" width="477" height="475" class="icons"><br>
+      Flights</a></li>
+    <li><a href="#tabs-2"><img src="HOTELS_WHITE.png" alt="" width="357" height="475" class="icons"><br>
+      Hotels</a></li>
+    <li><a href="#tabs-3"><img src="CARS_WHITE.png" alt="" width="477" height="418" class="icons"><br>
+      Cars</a></li>
+    <li><a href="#tabs-4"><img src="VACATIONS_WHITE.png" alt="" width="451" height="474" class="icons"><br>
+      Vacations</a></li>
+    <li><a href="#tabs-5"><img src="CRUISES_WHITE.png" alt="" width="345" height="475" class="icons"><br>
+      Cruises</a></li>
+  </ul>
+  <div id="tabs-1"> <input type="text" placeholder="Leaving from"><input type="text" placeholder="Going to">
+
+     From:
+    <input type="date">
+
+      To:
+    <input type="date"><input type="submit" class="submit"></div>
+  <div id="tabs-2">
+    <p>Content 2</p>
+  </div>
+  <div id="tabs-3">
+    <p>Content 3</p>
+  </div>
+  <div id="tabs-4">
+    <p>Content 4</p>
+  </div>
+  <div id="tabs-5">
+    <p>Content 5</p>
+  </div>
+</div>
+</wrapper>
+<footer><p>© 2025, Maria V. Herrera. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
